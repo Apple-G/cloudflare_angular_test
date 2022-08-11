@@ -9,7 +9,7 @@ export class ApiService {
   constructor(private httpClient: HttpClient) { }
   
   getCountrys(){
-    return this.httpClient.get("./api/countrys);
+    return this.httpClient.get("./api/countrys");
   }
   
 }
