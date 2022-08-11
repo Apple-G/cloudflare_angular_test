@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, FormControl, Validators } from '@angular/forms';
 
-import { ApiService } from './services/api.service.ts';
+import { ApiService } from './services/api.service';
 
 @Component({
   selector: 'app-root',
