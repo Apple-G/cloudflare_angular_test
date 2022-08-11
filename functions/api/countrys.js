@@ -1,11 +1,12 @@
 
 export const onRequest = () => {
-  CountryData: Array<any> = [
+  var response = [
     { name: 'IND', value: 'India' },
     { name: 'AUS', value: 'Australia' },
     { name: 'USA', value: 'America' },
     { name: 'RUS', value: 'Rusia' },
     { name: 'Eng', value: 'England' }
   ];
-  return new Response(CountryData)
+  
+  return new Response( response );
 }
