@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
   }
   
    ngOnInit() {
-      this.apiService.getPosts()
+      this.apiService.getCountrys()
         .subscribe(response => {
           this.CountryData = response;
         });
